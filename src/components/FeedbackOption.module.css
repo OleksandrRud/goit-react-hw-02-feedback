@@ -1,0 +1,12 @@
+.box {
+  display: flex;
+  list-style: none;
+}
+
+.button {
+  width: 200px;
+  height: 50px;
+  margin: 20px;
+  border-radius: 5px;
+  font-size: x-large;
+}
