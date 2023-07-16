@@ -38,6 +38,8 @@ export class App extends Component {
             onLeaveFeedback={this.leaveFeedback}
             options={this.options}
           />
+        </Section>
+        <Section title="Statistics">
           {total === 0 && <Notification message="There is no feedback" />}
           {total > 0 && (
             <Statistics
